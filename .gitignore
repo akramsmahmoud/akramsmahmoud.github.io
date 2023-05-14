@@ -1,0 +1,4 @@
+./backup
+backup/*
+.DS_Store
+styles/main.css
