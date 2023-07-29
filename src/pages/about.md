@@ -3,34 +3,22 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+<div class="my-10">
+  <img class="rounded-full w-1/2" src="/assets/akram.jpeg" />
 </div>
 
-## Tech Stack
+👋 Hello! I'm Akram, a passionate Frontend Engineer and Web Enthusiast. With a deep love for elegant design and efficient code, I'm on a mission to create exceptional user experiences that leave a lasting impact.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+🌐 Crafting digital wonders: As a frontend engineer, I sculpt with HTML, CSS, and JavaScript to bring ideas to life. From intuitive interfaces to seamless interactions, I strive to strike the perfect balance between aesthetics and functionality.
 
-## Features
+💡 Continuous learner: In the ever-evolving world of web development, I believe in the power of continuous learning. I'm constantly exploring new technologies, frameworks, and design patterns to stay ahead of the curve.
 
-Here are certain features of this site.
+🚀 Building together: Collaboration fuels my creativity. I enjoy working in teams and believe in the power of diverse perspectives to produce remarkable results. Let's build something amazing together!
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+🎨 Beyond Coding: When I step away from my coding keyboard, you'll find me immersed in a world of diverse passions. As a movie enthusiast, I adore the art of storytelling through films. From classic masterpieces to the latest blockbusters, I'm always eager to explore new cinematic experiences that spark inspiration.
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+🌟 Join the journey: I started this blog to share my experiences, insights, and discoveries with fellow frontend enthusiasts. Together, let's push the boundaries of web development and create a web that truly wows.
+
+Thank you for joining me on this exciting journey of frontend engineering. Let's craft experiences that inspire and empower users one pixel at a time.
+
+Happy coding!
