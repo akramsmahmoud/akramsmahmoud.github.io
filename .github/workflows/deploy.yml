@@ -20,6 +20,9 @@ jobs:
       - name: Check out your repository using git
         uses: actions/checkout@v2
 
+      - name: cache node modules
+        uses: pnpm/action-setup@v2
+
       - name: Use Node.js 18
         uses: actions/setup-node@v2
         with:
