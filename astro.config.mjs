@@ -7,7 +7,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://akrm.it/", // replace this with your deployed domain
+  site: "https://akramsmahmoud.github.io", // replace this with your deployed domain
+  base: "/akramsmahmoud.github.io",
   integrations: [
     tailwind({
       config: {
