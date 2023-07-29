@@ -22,6 +22,8 @@ jobs:
 
       - name: cache node modules
         uses: pnpm/action-setup@v2
+        with:
+          version: 6.32.9
 
       - name: Use Node.js 18
         uses: actions/setup-node@v2
