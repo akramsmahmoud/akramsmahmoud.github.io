@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Akram",
   desc: "Discover the world of frontend engineering with a dedicated Frontend Engineer, showcasing web development projects, HTML, CSS, and JavaScript expertise for seamless user experiences",
   title: "Akram's Blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "Akram.png",
   lightAndDarkMode: true,
   postPerPage: 5,
 };
