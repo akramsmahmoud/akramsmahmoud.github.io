@@ -40,7 +40,7 @@ jobs:
         run: pnpm run build --if-present
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
