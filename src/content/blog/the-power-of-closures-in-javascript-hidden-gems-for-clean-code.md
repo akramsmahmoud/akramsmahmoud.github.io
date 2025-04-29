@@ -1,12 +1,18 @@
-You're right, Akram—thanks for pointing that out. Here's the **complete Markdown version** of *“The Power of Closures in JavaScript: Hidden Gems for Clean Code”*, fully formatted and ready to paste into a `.md` file:
+---
+author: Akram
+pubDatetime: 2025-04-29
+title: The Power of Closures in JavaScript: Hidden Gems for Clean Code
+postSlug: closure
+featured: false
+draft: false
+tags:
+  - javascript
+  - closure
+ogImage: ""
+description: The Power of Closures in JavaScript: Hidden Gems for Clean Code
+---
 
-```md
----
-title: "The Power of Closures in JavaScript: Hidden Gems for Clean Code"
-description: "Explore how closures work in JavaScript and how they can lead to cleaner, more modular code. With examples, best practices, and real-world use cases."
-date: 2025-04-29
-tags: ["JavaScript", "Closures", "Functional Programming", "React", "Angular"]
----
+
 
 # 🔒 The Power of Closures in JavaScript: Hidden Gems for Clean Code
 
@@ -141,6 +147,3 @@ Closures are everywhere—even if you don’t see them.
 Closures are like superpowers in JavaScript. They allow your functions to "remember" things and act as a bridge between the past and the future of your program's state. Whether you're creating private variables, building function factories, or managing async code, closures can help you write cleaner, smarter code.
 
 So next time you need a little memory magic in your functions, remember: closures have your back.
-```
-
-Let me know if you'd like help turning this into an `.md` file or integrating it directly into your Astro blog.
