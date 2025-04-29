@@ -14,20 +14,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out your repository using git
+      - name: Check out your repository
         uses: actions/checkout@v3
 
-      - name: Use Node.js 18 with pnpm caching
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'pnpm'
-
-      - name: Setup pnpm
+      - name: Setup pnpm & Node.js
         uses: pnpm/action-setup@v2
         with:
           version: 8
           run_install: false
+          node-version: 18  # pnpm will install Node and set it up
+          standalone: true  # ensures pnpm is available in PATH
+
+      - name: Enable pnpm cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install
